@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "UserGPT3",
+    "version": "1.0",
+    "description": "A simple Chrome extension example",
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
